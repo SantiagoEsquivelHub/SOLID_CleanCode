@@ -37,5 +37,9 @@ class Product {
     }
 }
 
-const bluePants = new Product('Blue Large Pants', 1000, 'S');
-console.log(bluePants.toString())
+(
+    () => {
+        const bluePants = new Product('Blue Large Pants', 1000, 'S');
+        console.log(bluePants.toString())
+    }
+)()
